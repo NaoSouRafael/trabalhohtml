@@ -32,6 +32,21 @@ header .container {
     font-weight: bold;
 }
 
+button {
+  color: black;
+  background: white;
+  transition: transform 1s;
+  transform: translateX(0) scale(0.5);
+}
+
+button:hover,
+button:focus {
+  background: white;
+  transform: translateX(10px) scale(1.2);
+  
+}
+
+
 nav ul {
     list-style: none;
     display: flex;
